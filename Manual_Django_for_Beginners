@@ -1,0 +1,17 @@
+____________________ Initial Set Up  ____________________
+
+1. Django 4.0 and Python 3.10
+2. Create Directory - ch1-setup
+3. Create a virtual environment within this new directory
+    - python -m venv .venv
+    - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser [..Windows Execution - Enable for running scripts]
+    - .venv\Scripts\Activate.ps1 [.. Activate - virtual environment]
+    - deactivate [..Deactivate and leave a virtual environment type]
+4. Install Django
+    - python -m pip install django~=4.1.2
+5. Pip to be on the latest version
+    - python -m pip install --upgrade pip
+6. Create a new Django project [.. Project Name = django_project]
+    - django-admin startproject django_project .
+7. Running Django’s internal web server
+    - python manage.py runserver
